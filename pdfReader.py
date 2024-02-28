@@ -1,38 +1,79 @@
 import PyPDF2
+import nltk
+nltk.download('stopwords')
+nltk.download('punkt')
+
 from PyPDF2 import PdfReader
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize, sent_tokenize, RegexpTokenizer
+from collections import Counter
 
-arquivo = PdfReader("download.pdf")
-page = arquivo.pages[0]
-number_of_pages = len(arquivo.pages)
-lista = list(arquivo)
+pdf_file = open("download.pdf", 'rb')
 
-def removeStopWords(arquivo):
+pdf_reader = PyPDF2.PdfReader(pdf_file)
+text = ''
+tokenizer = RegexpTokenizer(r'\w+')
 
-     stopWords = [" is "," a ", " the ", " are "]
+for i in range(len(pdf_reader.pages)):
+    page = pdf_reader.pages[i]
+    text += page.extract_text()
 
-     while number_of_pages < -1:
-          print("TESTE")
+'''
+    tratar texto limpo
+    retirar as referencias
+'''
 
+words = tokenizer.tokenize(text)
+texto = []
+references = []
+reference = False
+for word in words:
+    if word == 'REFERENCES':
+        reference = True
+    if reference:
+        if word == 'Authorized':
+            references.pop()
+            break
+        references.append(word)
+    else:
+        texto.append(word.lower())
+    
+bag_of_words = Counter(texto).most_common(10)
+#print(texto)
+print(references)
+print(bag_of_words)
 
-removeStopWords(arquivo)
+'''
+    stop words, lematizacao, stemming
 
-# print(type(arquivo))
+'''
+text = text.lower()
 
-# from PyPDF2 import PdfReader
+stop_words = stopwords.words('english')
+# print(stop_words)
 
-# reader = PdfReader("download.pdf")
-# page = reader.pages[0]
-# number_of_pages = len(reader.pages)
+palavras = tokenizer.tokenize(text)
+# print(words)
 
+texto_limpo = []
+references = []
+reference = False
 
-# print(number_of_pages)
+for word in palavras:
+    if (word not in stop_words):
+        texto_limpo.append(word)
+        if(word == 'references'):
+            reference = True
+    elif (word not in stop_words) and reference:
+        if word == 'authorized':
+            references.pop()
+            break
+        references.append(word)
+    
+# print(texto_limpo)
+# print(references)
 
-# def removeStopWords(reader):
+porter = nltk.PorterStemmer()
+counts = [porter.stem(w) for w in texto_limpo]
 
-#     stopWords = [" is "," a ", " the ", " are "]
-
-#     while reader < 
-#     if reader == stopWords:
-#         print(stopWords) 
-
-
+print(Counter(counts).most_common(10))
