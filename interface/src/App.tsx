@@ -5,29 +5,37 @@ import { setupInputValidation } from './inputValidator';
 
 
 function App() {
-  const [articleData, setArticleData] = useState(jsonData.data);
+  const [articleData, setArticleData] = useState(jsonData);
+  const [inputValue, setInputValue] = useState('');
+  const [inputBagWords, setInputBagWords] = useState({} as any);
+  const [inputObjective, setInputObjective] = useState('');
+  const [inputProblem, setInputProblem] = useState('');
+  const [inputMethod, setInputMethod] = useState('');
+  const [inputContribution, setInputContribution] = useState('');
 
-  useEffect(() => {
-    setArticleData(jsonData.data);
-  }, []);
+  const handleInputChange = (event: any) => {
+    setInputValue(event.target.value);
+  };
 
-  function findMostCommonWords(data: any) {
-    const mostCommons = data?.most_commons;
-    if (!mostCommons) {
-      console.error('Atributo "most_commons" não encontrado no arquivo JSON.');
-      return [];
-    }
-    return mostCommons.map(([word, count]: [string, number]) => ({ word, count }));
+  function findMostCommonWords() {
+
+
+    const article = articleData.find((a: any) => {
+      return a.data.name === `articles/${inputValue}.pdf`
+    })
+    console.log(article)
+    setInputBagWords(article?.data.bag_of_words ?? {})
+    setInputObjective(article?.data.objective??'')
+    setInputProblem(article?.data.problem??'')
+    setInputMethod(article?.data.method??'')
+    setInputContribution(article?.data.contribution??'')
+
+
+    console.log(inputBagWords)
   }
   const [mostCommonWords, setMostCommonWords] = useState<{ word: string; count: number }[]>([]);
 
-  useEffect(() => {
-    const commonWords = findMostCommonWords(jsonData.data.most_commons);
-    setMostCommonWords(commonWords);
-  }, [mostCommonWords]);
-
   setupInputValidation()
-  findMostCommonWords(jsonData.data.most_commons)
 
   return (
     <div className="App">
@@ -36,30 +44,24 @@ function App() {
         <div>
           <div className='.App-line'>
             <h2 className='App-tittleH2'>Informe número do artigo para busca:</h2>
-            <input type='text' className='App-input' id="search-article" name="article">
+            <input type='text' value={inputValue}
+              onChange={handleInputChange} className='App-input' id="search-article" name="article">
             </input>
 
           </div>
           <button className='App-button' onClick={findMostCommonWords}>Pesquisar</button>
-          <p>{articleData.objective}</p>
-
+          <h2>Objetivo:</h2>
+          <p>{inputObjective}</p>
           <h2>Problema:</h2>
-          <p>{articleData.problem}</p>
+          <p>{inputProblem}</p>
+          <h2>Metodo:</h2>
+          <p>{inputMethod}</p>
+          <h2>Contribuição:</h2>
+          <p>{inputContribution}</p>
           <h2>Bag of Words:</h2>
           <ul>
-            {Object.entries(articleData.bag_of_words).map(([word, count]) => (
-              <li key={word}>
-                {word}: {count}
-              </li>
-            ))}
-          </ul>
-
-          <h2>Palavras Mais Comuns:</h2>
-          <ul>
-            {articleData.most_commons.map(([word, count]) => (
-              <li key={word}>
-                {word}: {count}
-              </li>
+            {Object.entries(inputBagWords).map(([word, count]) => (
+              <li key={word}>{`${word}: ${count}`}</li>
             ))}
           </ul>
         </div>

@@ -125,19 +125,15 @@ def process_pdf(pdf_file_path):
 
     return article
 
-# List to hold processed articles
 articles = []
 
-# Directory containing PDF files
 pdf_directory = "articles/"
 
-# Process each PDF file in the directory
 for filename in os.listdir(pdf_directory):
     if filename.endswith(".pdf"):
         pdf_path = os.path.join(pdf_directory, filename)
         article_data = process_pdf(pdf_path)
         articles.append(article_data)
 
-# Write all articles to JSON
 with open("datafile.json", "w") as write:
     json.dump(articles, write)
