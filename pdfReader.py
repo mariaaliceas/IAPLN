@@ -45,7 +45,8 @@ reference = False
 list_words = ['idea','inspired','analyzed','have seen','organized','developed','proposes','approach','develop','introduced','contribute','explain','introduces']
 list_problems = ['building','accepts','solving','challenge','issue','problem','obstacle','dilemma','difficulty','barrier','impediment','hurdle','complication']
 list_methods = ['method', 'methodology', 'interviews', 'survey', 'content analysis']
-list_contributions = ['type of teaching']
+list_contributions = ['type of teaching','contribution','contributions','findings','results','insights','conclusions','implications','significance','impact',
+'relevance','discoveries','advances','key points','novelty','originality']
 
 def remove_references(reference):
     for i, word in enumerate(words):
@@ -105,7 +106,7 @@ def get_contribution(sentences, list_contributions):
             return sentence
 
 
-print(words)
+#print(words)
 bag_of_words = Counter(words)
 most_commons = bag_of_words.most_common(10)
 #remove_references(words)
