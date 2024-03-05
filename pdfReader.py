@@ -17,6 +17,7 @@ pdf_file = open("articles/1.pdf", 'rb')
 pdf_reader = PyPDF2.PdfReader(pdf_file)
 tokenizer = RegexpTokenizer(r'\w+')
 text = ''
+data = ''
 
 for i in range(len(pdf_reader.pages)):
     page = pdf_reader.pages[i]
@@ -117,12 +118,13 @@ method = get_method(sentences,list_methods)
 contribution = get_contribution(sentences,list_contributions)
 
 article = {
-    "bag_of_words" : bag_of_words,
-    "most_commons" : most_commons,
-    "objective" : objective,
-    "problem": problem,
-    "method": method,
-    "contribution" : contribution
+        "data" : {
+        "bag_of_words" : bag_of_words,
+        "most_commons" : most_commons,
+        "objective" : objective,
+        "problem": problem,
+        "method": method,
+        "contribution" : contribution}
 }
 
 with open( "datafile.json" , "w" ) as write:
