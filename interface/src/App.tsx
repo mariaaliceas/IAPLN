@@ -7,34 +7,39 @@ import { setupInputValidation } from './inputValidator';
 function App() {
   const [articleData, setArticleData] = useState(jsonData);
   const [inputValue, setInputValue] = useState('');
-  //const [inputBagWords, setInputBagWords] = useState({} as any);
   const [inputObjective, setInputObjective] = useState('');
   const [inputProblem, setInputProblem] = useState('');
   const [inputMethod, setInputMethod] = useState('');
   const [inputContribution, setInputContribution] = useState('');
   const [inputName, setInputName] = useState('');
-  const [inputFrequence, setInputFrequence] = useState([]);
-  
+  const [inputFrequence, setInputFrequence] = useState([] as any);
+  const [inputReferences, setInputReferences] = useState({} as any);
+
   const handleInputChange = (event: any) => {
     setInputValue(event.target.value);
   };
 
-  function findMostCommonWords() {
+  function findArticle() {
     const article = articleData.find((a: any) => {
       return a.data.arqName === `articles/${inputValue}.pdf`
     })
 
-    //setInputBagWords(article?.data.bag_of_words ?? {})
-    setInputObjective(article?.data.objective??'')
-    setInputProblem(article?.data.problem??'')
-    setInputMethod(article?.data.method??'')
-    setInputContribution(article?.data.contribution??'')
-    setInputName(article?.data.name??'')
-    //setInputFrequence(article?.data.frequency??[])
 
-    console.log(article)
+    //setInputBagWords(article?.data.bag_of_words ?? {})
+    setInputObjective(article?.data.objective ?? '')
+    setInputProblem(article?.data.problem ?? '')
+    setInputMethod(article?.data.method ?? '')
+    setInputContribution(article?.data.contribution ?? '')
+    setInputName(article?.data.name ?? '')
+    setInputFrequence(article?.data.frequency ?? [])
+    setInputReferences(article?.data.references ?? {})
+
+    console.log(inputFrequence)
+
+    console.log(article?.data.frequency)
   }
 
+  
   setupInputValidation()
 
   return (
@@ -49,7 +54,7 @@ function App() {
             </input>
 
           </div>
-          <button className='App-button' onClick={findMostCommonWords}>Pesquisar</button>
+          <button className='App-button' onClick={findArticle}>Pesquisar</button>
           <h2>Título do artigo:</h2>
           <p>{inputName}</p>
           <h2>Objetivo:</h2>
@@ -61,15 +66,14 @@ function App() {
           <h2>Contribuição:</h2>
           <p>{inputContribution}</p>
           <h2>Frequência de palavras:</h2>
-          <p></p>
-          <h2>Referências:</h2>
-          <p></p>
-          {/* <h2>Bag of Words:</h2>
           <ul>
-            {Object.entries(inputBagWords).map(([word, count]) => (
-              <li key={word}>{`${word}: ${count}`}</li>
-            ))}
-          </ul> */}
+            {inputFrequence.map((frequency: any) => 
+              (<li key={frequency[0]}>{`${frequency[0]}: ${frequency[1]}`}</li>)
+            )
+            }
+          </ul>
+          <h2>Referências:</h2>
+          <p>{inputReferences.join("\n")}</p>
         </div>
       )}
     </div>
