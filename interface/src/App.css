@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 .App {
   text-align: left;
+  display: block;
   margin: 50px;
-  font-family: Geneva, Verdana, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -16,94 +19,71 @@
 }
 
 .App-line {
-  display: inline-table;
+  display: flex; 
+  align-items: center; 
+}
+
+h2{
+  color: #0f5ddb;
+}
+
+h1{
+  color: #e7930c;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #5f5f5f;
+  margin-bottom: 20px;
 }
 
 
 .App-input {
-  height: 50%;
-  width: 50%;
-  background-color: rgb(255, 255, 255);
-  color: rgb(122, 122, 122);
-  font-size: 20px;
+  padding: 10px;
+  border: 2px solid #0f5ddb;
   border-radius: 5px;
-  border-style: groove;
-  border-color: rgb(230, 230, 230);
-  text-align: center;
+  font-size: 16px;
+  margin-right: 10px;
+  transition: background-color 0.3s ease; 
 }
 
-.App-input:hover{
-  height: 50%;
-  width: 50%;
-  background-color: rgb(239, 239, 239);
-  color: rgb(0, 0, 0);
-  font-size: 20px;
-  border-radius: 5px;
-  border-style: inset;
-  border-color: rgb(255, 255, 255);
-  text-align: center;
+
+.App-input:hover {
+  background-color: rgba(15, 93, 219, 0.1); 
 }
 
-.App-button{
+.App-button {
+  padding: 10px 20px;
+  background-color: #0f5ddb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
   margin-top: 10px;
-  height: 30%;
-  width: 30%;
-  background-color: rgb(10, 56, 172);
-  color: rgb(255, 255, 255);
-  font-size: 20px;
-  border-radius: 5px;
-  border-style: inset;
-  border-color: rgb(255, 255, 255);
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-
-}
-.App-button:hover{
-  margin-top: 10px;
-  height: 30%;
-  width: 30%;
-  background-color: rgb(56, 84, 154);
-  color: rgb(255, 255, 255);
-  font-size: 20px;
-  border-radius: 5px;
-  border-style: inset;
-  border-color: rgb(255, 255, 255);
-  text-align: center;
-
 }
 
-.App-tittleH2 {
-  display: flex;
-  height: 50%;
-  width: 50%;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: rgb(22, 52, 223);
+
+.App-button:hover {
+  background-color: #0950a0; 
+}
+
+
+.App-titleH2 {
+  color: #0f5ddb;
+  font-size: 24px;
+  margin-bottom: 20px; 
 }
 
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
-  display: block;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(14px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
 }

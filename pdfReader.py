@@ -133,6 +133,7 @@ def process_pdf(pdf_file_path):
 
     article = {
         "data": {
+            "arqName":pdf_file_path,
             "name": pdf_reader.metadata.title,
             "objective": objective,
             "problem": problem,

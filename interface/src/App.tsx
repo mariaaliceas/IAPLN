@@ -7,33 +7,31 @@ import { setupInputValidation } from './inputValidator';
 function App() {
   const [articleData, setArticleData] = useState(jsonData);
   const [inputValue, setInputValue] = useState('');
-  const [inputBagWords, setInputBagWords] = useState({} as any);
+  //const [inputBagWords, setInputBagWords] = useState({} as any);
   const [inputObjective, setInputObjective] = useState('');
   const [inputProblem, setInputProblem] = useState('');
   const [inputMethod, setInputMethod] = useState('');
   const [inputContribution, setInputContribution] = useState('');
-
+  const [inputName, setInputName] = useState('');
+  
   const handleInputChange = (event: any) => {
     setInputValue(event.target.value);
   };
 
   function findMostCommonWords() {
-
-
     const article = articleData.find((a: any) => {
-      return a.data.name === `articles/${inputValue}.pdf`
+      return a.data.arqName === `articles/${inputValue}.pdf`
     })
-    console.log(article)
-    setInputBagWords(article?.data.bag_of_words ?? {})
+
+    //setInputBagWords(article?.data.bag_of_words ?? {})
     setInputObjective(article?.data.objective??'')
     setInputProblem(article?.data.problem??'')
     setInputMethod(article?.data.method??'')
     setInputContribution(article?.data.contribution??'')
+    setInputName(article?.data.name??'')
 
-
-    console.log(inputBagWords)
+    console.log(article)
   }
-  const [mostCommonWords, setMostCommonWords] = useState<{ word: string; count: number }[]>([]);
 
   setupInputValidation()
 
@@ -50,6 +48,8 @@ function App() {
 
           </div>
           <button className='App-button' onClick={findMostCommonWords}>Pesquisar</button>
+          <h2>Título do artigo:</h2>
+          <p>{inputName}</p>
           <h2>Objetivo:</h2>
           <p>{inputObjective}</p>
           <h2>Problema:</h2>
@@ -58,12 +58,12 @@ function App() {
           <p>{inputMethod}</p>
           <h2>Contribuição:</h2>
           <p>{inputContribution}</p>
-          <h2>Bag of Words:</h2>
+          {/* <h2>Bag of Words:</h2>
           <ul>
             {Object.entries(inputBagWords).map(([word, count]) => (
               <li key={word}>{`${word}: ${count}`}</li>
             ))}
-          </ul>
+          </ul> */}
         </div>
       )}
     </div>

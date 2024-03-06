@@ -1,226 +1,195 @@
 [
   {
     "data": {
-      "name": "Code-Viz: Data Structure Specific Visualization and Animation Tool For User-Provided Code",
-      "objective": "Keywords \u2014 Visualization, Animation, Imagery, Data Structures, Language Agnostici sm, Immersive Understanding, Involved Learning I. I NTRODUCTIONThe idea for this project was inspired by the need of visualisation for user defined algorithms and data structures.",
-      "problem": "P ROBLEM STATEMENTBuilding a tool which accepts code as input from the user and generates simple, explanat ive  visualization of line-by-line execution of the code, and provides data structure specific animation for the data structure  used.",
-      "method": null,
-      "contribution": null,
+      "arqName": "articles/4.pdf",
+      "name": "Efficient Video Data Structure and Compression Scheme for Fabric Wicking Phenomenon Studies",
+      "objective": "Speci\ufb01cally, wehave developed a preliminary wetting event timestamp de-tection algorithm [3] that works at the level of the indi-vidual time series of each pixel location of the wicking-performance video.",
+      "problem": null,
+      "method": "W e havebeen working with textile scientists to automate a newly de-signed video-based test method that targets at analyzing theyarn-level wicking behaviors of fabrics.",
+      "contribution": "W e also propose a compressionscheme specially designed for the proposed data structure.Experimental results show that the proposed data structureand compression scheme can store the video information inmanageable \ufb01le size while providing visual quality at a cus-tomized level.1.",
       "frequency": [
         [
-          "code",
-          45
+          "video",
+          34
+        ],
+        [
+          "wicking",
+          28
+        ],
+        [
+          "time",
+          28
         ],
         [
           "data",
-          36
+          27
+        ],
+        [
+          "size",
+          20
+        ],
+        [
+          "The",
+          19
+        ],
+        [
+          "pixel",
+          18
+        ],
+        [
+          "block",
+          18
+        ],
+        [
+          "structure",
+          17
+        ],
+        [
+          "blocks",
+          16
+        ]
+      ],
+      "references": [
+        "[1] V ertical Wicking of T extiles, AA TCC Std.",
+        "TM197, 2013.",
+        "[2] B. Miller and I. Tyomkin, \u201cSpontaneous transplanar uptake ofliquids by fabrics,\u201d T extile Research Journal, vol.",
+        "54, no.",
+        "11,pp.",
+        "706\u2013712, Nov.",
+        "1984.",
+        "[3] X. Liu and C.-W. Wong, \u201cVideo-based wetting detection forblended fabrics,\u201d in IEEE International Conference on ImageProcessing (ICIP\u201919), Brighton, UK, May 2019, submitted.418"
+      ]
+    }
+  },
+  {
+    "data": {
+      "arqName": "articles/10.pdf",
+      "name": "Universal Linear Data Structure",
+      "objective": "The conditions that these functions must meet are introduced as axioms.",
+      "problem": "Universal Linear Data StructureRustam Kabulov Vosilovich Candidate of Physical and Mathematical Sciences, Associate Professor, department of software engineering  Tashkent University of Information Techno logies named after Muhammad al-Khwariz imi, 100200, Republic of Uzbekistan, Tashkent, Amir Temur str., 108 kabulov_rustam1959@mail.ru   Abstract\u2014The paper is devoted to the relevant issue of formalizing the description of a universal linear data structure.",
+      "method": "Purpose of work: development of methods for formalizing description and specifications of sequential data structures as close as possible to real programming practice.II.",
+      "contribution": null,
+      "frequency": [
+        [
+          "CONTAINER",
+          26
+        ],
+        [
+          "data",
+          23
+        ],
+        [
+          "A1",
+          23
         ],
         [
           "The",
           22
         ],
         [
-          "visualization",
-          22
-        ],
-        [
-          "user",
-          21
-        ],
-        [
-          "Fig",
-          21
-        ],
-        [
-          "structures",
-          19
-        ],
-        [
-          "tool",
-          17
-        ],
-        [
-          "used",
+          "count",
           15
         ],
         [
-          "end",
-          15
-        ]
-      ],
-      "references": [
-        "[1] Guo, Philip J , \"Online python tu tor: embeddable web-based program visualization for CS education.\".",
-        "ACM Technical Symposium on Computer science education, 2013.",
-        "[2] Heinsen Egan, M., & McDonald, C , An evaluation of SeeC: a tool designed to assist novice C prog rammers with program understanding and debugging.",
-        "Computer Science Education, 1-34, 2020.",
-        "[3] Ryosuke Ishizue, et al.",
-        ", PVC.js: visualizing C programs on web browsers for novices.",
-        "Heliyon,  Volume 6 Issue 4, 2020.",
-        "[4] David Galles, Data Structures Visualization https://www.cs.usfca.edu/~galles /visualization/source.html.",
-        "2011 8"
-      ]
-    }
-  },
-  {
-    "data": {
-      "name": "Fine-grained parallel traversals of irregular data structures",
-      "objective": "This pa-per develops compiler and runtime support to exploit such data par-allelism for non-numeric, non-graphic, irregular parallel tasks thatperform simple computations while traversing many independent,irregular data structures, like trees and graphs.",
-      "problem": "Second, to enable SIMD execution, we demonstratehow to turn \ufb01ne-grained task parallelism\u2014in the form of traversingmany irregular data structures\u2014into \ufb01ne-grained data parallelismby emulating a MIMD machine in SIMD hardware.In this paper, we develop compiler and runtime support to ad-dress these challenges and demonstrate that our approach is effec-tive by speeding up two random forest implementations by over10X across many inputs.2.",
-      "method": null,
-      "contribution": "The virtual machine then masks away the results of byte-codes whose types are not represented by the current operation.In effect, the virtual machine is using interpretation to emulatea MIMD machine with SIMD, a topic that has been studied in thepast [5, 2, 1, 4].3.",
-      "frequency": [
-        [
-          "SIMD",
-          32
-        ],
-        [
-          "data",
-          23
-        ],
-        [
-          "node",
-          17
-        ],
-        [
-          "irregular",
+          "programming",
           14
         ],
         [
-          "trees",
+          "structures",
           12
         ],
         [
-          "machine",
-          11
+          "container",
+          12
         ],
         [
-          "parallel",
-          9
+          "size",
+          12
         ],
         [
-          "structures",
-          9
-        ],
-        [
-          "one",
-          9
-        ],
-        [
-          "leaf",
-          9
+          "a0",
+          12
         ]
       ],
       "references": [
-        "[1] Guy E. Blelloch, Siddhartha Chatterjee, Jonathan C. Hardwick, Jay Sipelstein,and Marco Zagha.",
-        "Implementation of a portable nested data-parallel language.Journal of Parallel and Distributed Computing , 21(1):4\u201314, April 1994.",
-        "[2] H. G. Dietz and W. E. Cohen.",
-        "A massively parallel mimd implemented by simdhardware?",
-        "Technical report, Purdue University, 1992.",
-        "[3] A. Frank and A. Asuncion.",
-        "UCI machine learning repository, 2010.",
-        "[4] Jonathan C. Hardwick.",
-        "An ef\ufb01cient implementation of nested data parallelismfor irregular divide-and-conquer algorithms.",
-        "In Proceedings of the FirstInternational Workshop on High-Level Programming Models and SupportiveEnvironments , pages 105\u2013114, April 1996.",
-        "[5] Reinhard von Hanxleden and Ken Kennedy.",
-        "Relaxing simd control \ufb02owconstraints using loop transformations.",
-        "In PLDI , pages 188\u2013199, 1992.462"
+        "  [1] Alexandrescu A.",
+        "Modern C++ design.",
+        "The C++ InDepth series, vol.",
+        "3 / TRANS.",
+        "from English.",
+        "\u2014 M.: William, 2002.",
+        "\u2014 336 S., ill. [2] Ammeraal L. STL for C++ programmers / TRANS.",
+        "from English.",
+        "\u2014 M.:DMK, 1999.",
+        "- 240 p., Il.",
+        "",
+        "Downloaded on February 28,2024 at 23:08:16 UTC from IEEE Xplore.",
+        "Restrictions apply.",
+        "[3] Ostern M. Generic programming and the STL: The use and capacity of the standard template library / Per.",
+        "with angl.- SPb.",
+        ": Nevsky dialect, 2004.- 544 p., Il.",
+        "[4] Aho A. V, Hopcroft J. E., Ullman J. D. Data structures and algorithms = Data Structures and Algorithms.",
+        "Williams, 2000.",
+        "\u2014 384 C. [5] A.",
+        "B. Tucker and R. E. Noonan.",
+        "Programming Languages: Principles and Paradigms, Second Edition.",
+        "McGraw-Hill Higher Education, 2007.",
+        "[6] Knut D. The art of programming.",
+        "Volume 1.",
+        "Basic algorithms.",
+        "Williams, 2010.",
+        "[7] Liskov B., Zilles S. Programming with abstract data types // SIGPlan Notices, vol.",
+        "9, no.",
+        "4, 1974.",
+        "[8] B. Liskov.",
+        "A history of CLU.",
+        "In History of programming languages \u2014II, pages 471 \u2013510.",
+        "ACM, 1996 [9] L. Cardelli.",
+        "A semantics of multiple inheritance.",
+        "In Semantics of Data Types, volume 173 of Lecture Notes in Computer Science, pages 51 \u201368.",
+        "Springer-Verlag, 1984.",
+        "[10] Bertrand Meyer.",
+        "The basics of object-oriented programming.",
+        "Abstract data types (ADT).",
+        "http://www.intuit.ru/department / se / oopbases / 6 / 10.html  .",
+        "[11] B. C. Pierce.",
+        "Types and Programming Languages.",
+        "MIT Press, 2002.",
+        "[12] Glushkov V. M., Zeitlin, G. E., Yushchenko E. L. Algebra.",
+        "Languages.",
+        "Programming.",
+        "3-e Izd., Rev.",
+        "and DOP.",
+        "\u2013 Kiev: Sciences.",
+        "Dumka, 1989.",
+        "-376 p. [13] Yu.",
+        "V. Kapitonova, A.",
+        "A. Letichevskii, and V. A. Volkov, \"Deductive tools of an algebraic programming system,\" Cybernetics and System AnalysisNo.",
+        "1, 12-26 (2000).",
+        "[14] Kryvyi S. L. Abstract data types as polybasic algebraic system.",
+        "\u2013 K.: well.",
+        "\"Software engineering\".",
+        "\u2013  2010.",
+        "- \u2116 3.",
+        "\u2013 C. 3 -18.",
+        "[15] A. E. Doroshenko, O. V. Iovchev A method of designing an abstract data type in algebra of Algorithmics // Problems of programming.",
+        "\u2013 2012.",
+        "\u2013 No.",
+        "1.",
+        "\u2013  P. 3 \u2013 16.",
+        "[16] Kabulov R.V., Latipova N. Axiomatic approach to the definition of abstract types of data.",
+        "// \"Important issues in the field of technical and socio-economic sciences.\"",
+        "Republican collection of interuniversity scientific works.",
+        "Tashkent Institute of Chemistry and Technology.",
+        "Tashkent.",
+        "2015 pp.48-49.",
+        ""
       ]
     }
   },
   {
     "data": {
-      "name": "untitled",
-      "objective": "Important as it is, the data structure and data flow in CI have to be analyzed in detail just in the system design stage, so as to ensure that it can not only meet the safety-critical technical requirements, but be easier for system upgrade and function expansion as well.",
-      "problem": "It can be inferred that the core part CI in OCS applied in medium-low speed maglev has its own technical requirements in data flow and data structure design, and such problem have to be analyzed in detail just in the system design stage, so as to ensure that the data flow and data structure can not only meet the safety-critical technical requirements, but be easier for system upgrade and function expansion as well [4].Many scholars has taken interlocking system in rail transit into consideration to study its reliability in various aspects, even since the electromechanical interlocking (EI) period.",
-      "method": "(2017) set CI as a typical distributed system with many key safety-critical functions, studied the modeling method for such distributed system, and proposed a system design method which could ensure safety restrictions be satisfied in each stages of system design, however [12].From the literature review above, it can be seen that the safety-critical function for CI is undoubtedly important, and many efforts have been made to ensure its reliability and safety in system design employing hardware redundancy analysis, or partial function analysis, etc.",
-      "contribution": null,
-      "frequency": [
-        [
-          "data",
-          66
-        ],
-        [
-          "CI",
-          46
-        ],
-        [
-          "system",
-          34
-        ],
-        [
-          "interlocking",
-          33
-        ],
-        [
-          "route",
-          27
-        ],
-        [
-          "low",
-          23
-        ],
-        [
-          "signal",
-          23
-        ],
-        [
-          "speed",
-          22
-        ],
-        [
-          "medium",
-          21
-        ],
-        [
-          "maglev",
-          21
-        ]
-      ],
-      "references": [
-        "[1] X. Jiang, W. Nai, A. Yilixiati, Y. Yu, S. Wang, and D. Dong, \u201cA train positioning mechanism for medium-low speed maglev train based on parity check cross coding inductive loop wire,\u201d 3rd International Conference on Control Science and Systems Engineering (ICCSSE), 2017, pp.",
-        "269-272.",
-        "[2] W. Nai, Y. Yu, T. Zhang, W. Ye, S. Wang, D. Dong, \u201cReliability Enhancing Mechanism for Train Positioning Based on Cyclic Check Cross Coding Inductive Loop Wire for Medium-Low Speed Maglev,\u201d 3rd International Conference on Control Science and Systems Engineering (ICCSSE), 2017, pp.",
-        "273-276.",
-        "[3] W. Zheng, W. Nai, D. Dong, S. Chen, and W. Yang, \u201cDesign of turnout points interlocking control system in switchback station for Shanghai Metrol Line 16 based on fail-safe principle,\u201d Proc.",
-        "International Conference on Systems and Informatics (ICSAI), 2012, pp.",
-        "404-408.",
-        "[4] J. W. Palmer, and A. C. Renfrew, \u201cIssues raised in development of a large knowledge-based system for the design of railway signalling shemes,\u201d Proc.",
-        "1st International Conference on Intelligent Systems Engineering, 1992, pp.",
-        "316-323.",
-        "[5] A. H. Cribbens, M. J. Furniss, and H. A. Ryland, \u201cA experimental application of microprocessors to railway signalling,\u201d Electronics and Power, vol.",
-        "24, no.",
-        "3, 1978, pp.",
-        "209-214.",
-        "[6] A. H. Cribbens, \u201cSolid-state interlocking (SSI): an integrated electronic signalling system for mainline railways,\u201d IEE Proceedings B - Electric Power Applications, vol.",
-        "134, no.",
-        "3, 1987, pp.",
-        "148-158.",
-        "[7] A. H. Cribbens, and R. C. Waterman, \u201cLong distance data transmission of safety information for the solid state interlocking,\u201d Proc.",
-        "International Conference on Main Line Railway Electrification, 1989, pp.",
-        "322-326.",
-        "[8] G. Hong, and X. Yuan, \u201cControl strategy and reliability study of iLOCK high-speed railway interlocking system,\u201d Proc.",
-        "International Conference on Remote Sensing, Environment and Transportation Engineering, 2011, pp.",
-        "3950-3953.",
-        "[9] N. Jing, and B. Han.",
-        "\u201cThe study of TYJL-ADX interlocking system based computer,\u201d Proc.",
-        "25th Chinese Control and Decision Conference (CCDC), 2013, pp.",
-        "4205-4208.",
-        "[10] X. Hei, K. Zhao, W. Ma, G. Xie, and L. Wang, \u201cA real-time model of railway interlocking system based on UML extension mechanism,\u201d Proc.",
-        "IEEE 4th International Conference on Software Engineering and Service Science (ICSESS), 2013, pp.",
-        "19-22.",
-        "[11] J. Mocki, and L. Vlacic, \u201cPerformance evaluation of railway junction signalling and interlocking,\u201d Proc.",
-        "35th Chinese Control Conference (CCC), 2016, pp.",
-        "9712-9717.",
-        "[12] A. Fantechi, A. E. Haxthausen, and M. B. R. Nielsen, \u201cModel checking geographically distributed interlocking systems using UMC,\u201d Proc.",
-        "Euromicro International Conference on Parallel, Distributed and Network-based Processing (PDP), 2017, pp.",
-        "278-286.",
-        "[13] Ministry of Railways of the People's Republic of China, \u201cTechnical requirements of computer interlocking,\u201d 2002, TB3027-2002.",
-        "(In Chinese)\u0019\u0014\u0018\u0003"
-      ]
-    }
-  },
-  {
-    "data": {
+      "arqName": "articles/5.pdf",
       "name": "Explainable Story and Visualization for Learning Data Structure Concepts",
       "objective": "We have developed new expressions that serve as a bridge between data structure concepts and their logical structures.",
       "problem": "Students are in troduced to a variety of data logic structures and storage mechanisms, all of which can pose challenges to learners across various regions [9]-[11].",
@@ -366,6 +335,416 @@
   },
   {
     "data": {
+      "arqName": "articles/6.pdf",
+      "name": "Fine-grained parallel traversals of irregular data structures",
+      "objective": "This pa-per develops compiler and runtime support to exploit such data par-allelism for non-numeric, non-graphic, irregular parallel tasks thatperform simple computations while traversing many independent,irregular data structures, like trees and graphs.",
+      "problem": "Second, to enable SIMD execution, we demonstratehow to turn \ufb01ne-grained task parallelism\u2014in the form of traversingmany irregular data structures\u2014into \ufb01ne-grained data parallelismby emulating a MIMD machine in SIMD hardware.In this paper, we develop compiler and runtime support to ad-dress these challenges and demonstrate that our approach is effec-tive by speeding up two random forest implementations by over10X across many inputs.2.",
+      "method": null,
+      "contribution": "The virtual machine then masks away the results of byte-codes whose types are not represented by the current operation.In effect, the virtual machine is using interpretation to emulatea MIMD machine with SIMD, a topic that has been studied in thepast [5, 2, 1, 4].3.",
+      "frequency": [
+        [
+          "SIMD",
+          32
+        ],
+        [
+          "data",
+          23
+        ],
+        [
+          "node",
+          17
+        ],
+        [
+          "irregular",
+          14
+        ],
+        [
+          "trees",
+          12
+        ],
+        [
+          "machine",
+          11
+        ],
+        [
+          "parallel",
+          9
+        ],
+        [
+          "structures",
+          9
+        ],
+        [
+          "one",
+          9
+        ],
+        [
+          "leaf",
+          9
+        ]
+      ],
+      "references": [
+        "[1] Guy E. Blelloch, Siddhartha Chatterjee, Jonathan C. Hardwick, Jay Sipelstein,and Marco Zagha.",
+        "Implementation of a portable nested data-parallel language.Journal of Parallel and Distributed Computing , 21(1):4\u201314, April 1994.",
+        "[2] H. G. Dietz and W. E. Cohen.",
+        "A massively parallel mimd implemented by simdhardware?",
+        "Technical report, Purdue University, 1992.",
+        "[3] A. Frank and A. Asuncion.",
+        "UCI machine learning repository, 2010.",
+        "[4] Jonathan C. Hardwick.",
+        "An ef\ufb01cient implementation of nested data parallelismfor irregular divide-and-conquer algorithms.",
+        "In Proceedings of the FirstInternational Workshop on High-Level Programming Models and SupportiveEnvironments , pages 105\u2013114, April 1996.",
+        "[5] Reinhard von Hanxleden and Ken Kennedy.",
+        "Relaxing simd control \ufb02owconstraints using loop transformations.",
+        "In PLDI , pages 188\u2013199, 1992.462"
+      ]
+    }
+  },
+  {
+    "data": {
+      "arqName": "articles/3.pdf",
+      "name": "Efficient Data Structure Based Smart Card Implementation",
+      "objective": "Smart cards are small in size so it is easy to carry.They have enough processing power and sufficient data storage capabilities to store user profiles, to carry out cryptographic functions, and to support electronic commerce or other type of applications.Data is organized in smart card in the form of files.",
+      "problem": "Algorithms and datastructures are developed in [2] to solve security problem.",
+      "method": "Data referencing methods are also described.After detailed analysis of different data structures in term of the time taken by insertion, deletion and search operation, we have seen the BST is best for search operation and also optimal to insertion and deletion operation.",
+      "contribution": "The experimental results on smart cards of water meter, such as the RF card, TM card and IC card show that the general read-write system is feasible, and the read-write efficiency is not affected, possessing good operating conditions and scalability in [1].System like Smart card is a portable media which store sensible data.",
+      "frequency": [
+        [
+          "data",
+          69
+        ],
+        [
+          "record",
+          63
+        ],
+        [
+          "EF",
+          62
+        ],
+        [
+          "card",
+          57
+        ],
+        [
+          "file",
+          45
+        ],
+        [
+          "smart",
+          37
+        ],
+        [
+          "structure",
+          32
+        ],
+        [
+          "time",
+          25
+        ],
+        [
+          "identifier",
+          22
+        ],
+        [
+          "records",
+          21
+        ]
+      ],
+      "references": [
+        "[1].",
+        "Rang-ding Wang , Wei Wang ,\u201cDesign and implementation of the general read-write system of the smart card\u201d, 3rd IEEE International Conference on Ubi-media Computing (U-Media), 2010.[2].",
+        "R Sanchez Reillo, \u201cSecuring information and operations in a smart card through biometrics\u201d, Proceedings of  IEEE 34th Annual International Carnahan Conference on Security Technology, 2000.[3].",
+        "Ming-Sheng Liu; Hui Liu; Yin-Hua Ma; Wen-Xiong Li, \u201cResearch on precautions against data disaster of logic security smart card\u201d, Proceedings of  International Conference on Machine Learning and Cybernetics, 2004.[4].",
+        "Yoon-Sim Yang; Won-Ho Choi; Min-Sik Jin; Cheul-Jun Hwang; Min-Soo Jung, \u201cAn Advanced Java Card System Architecture for Smart Card Based on Large RAM Memory\u201d, International Conference on Hybrid Information Technology, 2006.",
+        "[5].",
+        "Chen Yuqiang; Hu Xuanzi ; Guo Jianlan ; Liu Liang, \u201cDesign and implementation of Smart Card COS\u201d, International Conference on Computer Application and System Modeling (ICCASM), 22-24 October 2010.",
+        "[6].",
+        "Chandramouli, R.; Lee, P., \u201cInfrastructure Standards for Smart ID Card Deployment\u201d, IEEE Security & Privacy, Volume:5, Issue:2, pp.",
+        "92-96, 2007468"
+      ]
+    }
+  },
+  {
+    "data": {
+      "arqName": "articles/1.pdf",
+      "name": "Code-Viz: Data Structure Specific Visualization and Animation Tool For User-Provided Code",
+      "objective": "Keywords \u2014 Visualization, Animation, Imagery, Data Structures, Language Agnostici sm, Immersive Understanding, Involved Learning I. I NTRODUCTIONThe idea for this project was inspired by the need of visualisation for user defined algorithms and data structures.",
+      "problem": "P ROBLEM STATEMENTBuilding a tool which accepts code as input from the user and generates simple, explanat ive  visualization of line-by-line execution of the code, and provides data structure specific animation for the data structure  used.",
+      "method": null,
+      "contribution": null,
+      "frequency": [
+        [
+          "code",
+          45
+        ],
+        [
+          "data",
+          36
+        ],
+        [
+          "The",
+          22
+        ],
+        [
+          "visualization",
+          22
+        ],
+        [
+          "user",
+          21
+        ],
+        [
+          "Fig",
+          21
+        ],
+        [
+          "structures",
+          19
+        ],
+        [
+          "tool",
+          17
+        ],
+        [
+          "used",
+          15
+        ],
+        [
+          "end",
+          15
+        ]
+      ],
+      "references": [
+        "[1] Guo, Philip J , \"Online python tu tor: embeddable web-based program visualization for CS education.\".",
+        "ACM Technical Symposium on Computer science education, 2013.",
+        "[2] Heinsen Egan, M., & McDonald, C , An evaluation of SeeC: a tool designed to assist novice C prog rammers with program understanding and debugging.",
+        "Computer Science Education, 1-34, 2020.",
+        "[3] Ryosuke Ishizue, et al.",
+        ", PVC.js: visualizing C programs on web browsers for novices.",
+        "Heliyon,  Volume 6 Issue 4, 2020.",
+        "[4] David Galles, Data Structures Visualization https://www.cs.usfca.edu/~galles /visualization/source.html.",
+        "2011 8"
+      ]
+    }
+  },
+  {
+    "data": {
+      "arqName": "articles/2.pdf",
+      "name": "untitled",
+      "objective": "Important as it is, the data structure and data flow in CI have to be analyzed in detail just in the system design stage, so as to ensure that it can not only meet the safety-critical technical requirements, but be easier for system upgrade and function expansion as well.",
+      "problem": "It can be inferred that the core part CI in OCS applied in medium-low speed maglev has its own technical requirements in data flow and data structure design, and such problem have to be analyzed in detail just in the system design stage, so as to ensure that the data flow and data structure can not only meet the safety-critical technical requirements, but be easier for system upgrade and function expansion as well [4].Many scholars has taken interlocking system in rail transit into consideration to study its reliability in various aspects, even since the electromechanical interlocking (EI) period.",
+      "method": "(2017) set CI as a typical distributed system with many key safety-critical functions, studied the modeling method for such distributed system, and proposed a system design method which could ensure safety restrictions be satisfied in each stages of system design, however [12].From the literature review above, it can be seen that the safety-critical function for CI is undoubtedly important, and many efforts have been made to ensure its reliability and safety in system design employing hardware redundancy analysis, or partial function analysis, etc.",
+      "contribution": null,
+      "frequency": [
+        [
+          "data",
+          66
+        ],
+        [
+          "CI",
+          46
+        ],
+        [
+          "system",
+          34
+        ],
+        [
+          "interlocking",
+          33
+        ],
+        [
+          "route",
+          27
+        ],
+        [
+          "low",
+          23
+        ],
+        [
+          "signal",
+          23
+        ],
+        [
+          "speed",
+          22
+        ],
+        [
+          "medium",
+          21
+        ],
+        [
+          "maglev",
+          21
+        ]
+      ],
+      "references": [
+        "[1] X. Jiang, W. Nai, A. Yilixiati, Y. Yu, S. Wang, and D. Dong, \u201cA train positioning mechanism for medium-low speed maglev train based on parity check cross coding inductive loop wire,\u201d 3rd International Conference on Control Science and Systems Engineering (ICCSSE), 2017, pp.",
+        "269-272.",
+        "[2] W. Nai, Y. Yu, T. Zhang, W. Ye, S. Wang, D. Dong, \u201cReliability Enhancing Mechanism for Train Positioning Based on Cyclic Check Cross Coding Inductive Loop Wire for Medium-Low Speed Maglev,\u201d 3rd International Conference on Control Science and Systems Engineering (ICCSSE), 2017, pp.",
+        "273-276.",
+        "[3] W. Zheng, W. Nai, D. Dong, S. Chen, and W. Yang, \u201cDesign of turnout points interlocking control system in switchback station for Shanghai Metrol Line 16 based on fail-safe principle,\u201d Proc.",
+        "International Conference on Systems and Informatics (ICSAI), 2012, pp.",
+        "404-408.",
+        "[4] J. W. Palmer, and A. C. Renfrew, \u201cIssues raised in development of a large knowledge-based system for the design of railway signalling shemes,\u201d Proc.",
+        "1st International Conference on Intelligent Systems Engineering, 1992, pp.",
+        "316-323.",
+        "[5] A. H. Cribbens, M. J. Furniss, and H. A. Ryland, \u201cA experimental application of microprocessors to railway signalling,\u201d Electronics and Power, vol.",
+        "24, no.",
+        "3, 1978, pp.",
+        "209-214.",
+        "[6] A. H. Cribbens, \u201cSolid-state interlocking (SSI): an integrated electronic signalling system for mainline railways,\u201d IEE Proceedings B - Electric Power Applications, vol.",
+        "134, no.",
+        "3, 1987, pp.",
+        "148-158.",
+        "[7] A. H. Cribbens, and R. C. Waterman, \u201cLong distance data transmission of safety information for the solid state interlocking,\u201d Proc.",
+        "International Conference on Main Line Railway Electrification, 1989, pp.",
+        "322-326.",
+        "[8] G. Hong, and X. Yuan, \u201cControl strategy and reliability study of iLOCK high-speed railway interlocking system,\u201d Proc.",
+        "International Conference on Remote Sensing, Environment and Transportation Engineering, 2011, pp.",
+        "3950-3953.",
+        "[9] N. Jing, and B. Han.",
+        "\u201cThe study of TYJL-ADX interlocking system based computer,\u201d Proc.",
+        "25th Chinese Control and Decision Conference (CCDC), 2013, pp.",
+        "4205-4208.",
+        "[10] X. Hei, K. Zhao, W. Ma, G. Xie, and L. Wang, \u201cA real-time model of railway interlocking system based on UML extension mechanism,\u201d Proc.",
+        "IEEE 4th International Conference on Software Engineering and Service Science (ICSESS), 2013, pp.",
+        "19-22.",
+        "[11] J. Mocki, and L. Vlacic, \u201cPerformance evaluation of railway junction signalling and interlocking,\u201d Proc.",
+        "35th Chinese Control Conference (CCC), 2016, pp.",
+        "9712-9717.",
+        "[12] A. Fantechi, A. E. Haxthausen, and M. B. R. Nielsen, \u201cModel checking geographically distributed interlocking systems using UMC,\u201d Proc.",
+        "Euromicro International Conference on Parallel, Distributed and Network-based Processing (PDP), 2017, pp.",
+        "278-286.",
+        "[13] Ministry of Railways of the People's Republic of China, \u201cTechnical requirements of computer interlocking,\u201d 2002, TB3027-2002.",
+        "(In Chinese)\u0019\u0014\u0018\u0003"
+      ]
+    }
+  },
+  {
+    "data": {
+      "arqName": "articles/8.pdf",
+      "name": "Philosophy of Data Structures in Engineering Education",
+      "objective": "Thisarticle explains the relationship and connectivity of these corecourses.",
+      "problem": "The article focus onthe method of providing connectivity between the building blocksof DS like Data Containers, Container Iterators, Algorithms andFunctors.",
+      "method": "The article focus onthe method of providing connectivity between the building blocksof DS like Data Containers, Container Iterators, Algorithms andFunctors.",
+      "contribution": null,
+      "frequency": [
+        [
+          "DS",
+          20
+        ],
+        [
+          "data",
+          17
+        ],
+        [
+          "The",
+          13
+        ],
+        [
+          "structures",
+          12
+        ],
+        [
+          "Data",
+          11
+        ],
+        [
+          "courses",
+          9
+        ],
+        [
+          "like",
+          7
+        ],
+        [
+          "Fig",
+          7
+        ],
+        [
+          "What",
+          7
+        ],
+        [
+          "pedagogy",
+          5
+        ]
+      ],
+      "references": []
+    }
+  },
+  {
+    "data": {
+      "arqName": "articles/7.pdf",
+      "name": "Lock-free Concurrent Data Structures and How to Model their Performance",
+      "objective": "Lock-free algorithmicdesigns of concurrent data structures [1] were introduced inthe quest for better performance and scalability and are widelyused in practice, e.g.",
+      "problem": "[2] Intels threading building blocks framework.https://www.threadingbuildingblocks.org/ .",
+      "method": null,
+      "contribution": "These results take into consideration the un-derlying hardware.",
+      "frequency": [
+        [
+          "free",
+          11
+        ],
+        [
+          "Lock",
+          10
+        ],
+        [
+          "data",
+          9
+        ],
+        [
+          "performance",
+          9
+        ],
+        [
+          "lock",
+          9
+        ],
+        [
+          "In",
+          9
+        ],
+        [
+          "structures",
+          6
+        ],
+        [
+          "concurrent",
+          6
+        ],
+        [
+          "Data",
+          5
+        ],
+        [
+          "Structures",
+          5
+        ]
+      ],
+      "references": [
+        "[1] Maurice Herlihy and Nir Shavit, \u201cThe art of multiprocessor program-ming, Morgan Kaufmann, 2011.",
+        "[2] Intels threading building blocks framework.https://www.threadingbuildingblocks.org/ .",
+        "Accessed: 2019-05-20.",
+        "[3] Java concurrency package.https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/package-summary.html.",
+        "Accessed: 2019-05-20.",
+        "[4] Microsoft .net framework.",
+        "https://dotnet.microsoft.com/ .",
+        "Accessed:2019-05-20.",
+        "[5] Hagit Attiya and Arie Fouren, \u201cAlgorithms adapting to point contention.,Journal of the ACM (JACM), 50(4): 444\u2013468, 2003.",
+        "[6] Yehuda Afek, Gideon Stupp, and Dan Touitou, \u201cLong lived adaptivesplitter and applications, Distributed Computing, 15(2): 67-86, 2002.",
+        "[7] Hagit Attiya, Rachid Guerraoui, and Petr Kouznetsov, \u201cComputing withreads and writes in the absence of step contention, In InternationalSymposium on Distributed Computing (DISC), pages 122-136, 2005.",
+        "[8] Aras Atalar, Paul Renaud-Goud and Philippas Tsigas, \u201cAnalyzing thePerformance of Lock-Free Data Structures: A Con\ufb02ict-Based Model,In the Proceedings of 29th International Symposium on DistributedComputing (DISC 2015), pages 341\u2013355, Springer 2015.",
+        "[9] Aras Atalar, Paul Renaud-Goud and Philippas Tsigas, \u201cHow Lock-free Data Structures Perform in Dynamic Environments: Models andAnalyses, In the Proceedings of the 20th International Conference onPrinciples of Distributed Systems (OPODIS 2016), pages 1\u201317, SchlossDagstuhl - Leibniz-Zentrum fuer Informatik.",
+        "[10] Aras Atalar, Paul Renaud-Goud and Philippas Tsigas, \u201cLock-Free SearchData Structures: Throughput Modeling with Poisson Processes, In theProceedings of the 21st International Conference on Principles ofDistributed Systems (OPODIS 2018), pages 9:1\u20139:16, Schloss Dagstuhl- Leibniz-Zentrum fuer Informatik.",
+        "[11] Aras Atalar, Anders Gidenstam, Paul Renaud-Goud and Philippas Tsi-gas, \u201cModeling Energy Consumption of Lock-Free Queue Implemen-tations, In the Proceedings of 29th IEEE International Parallel andDistributed Processing Symposium (IPDPS 2015), pages 229\u2013238, IEEEPress 2015.2"
+      ]
+    }
+  },
+  {
+    "data": {
+      "arqName": "articles/9.pdf",
       "name": "The Modeling of Mineral Water Fields Data Structure",
       "objective": "517                               978-1-6654-0476-1 /21/$31.00 \u00a92021 IEEE  The Modeling of Mineral Water Fields Data Structure   Anastasiya A. Makarova  North-Caucasus Federal University, branch in Pyatigorsk Pyatigorsk, Russia makarova.kmv@gmail.com Dmitrii A. Kovalev Saint-Petersburg State University of Industrial Technologies and Design St. Petersburg, Russia d.a.kovalyov@yandex.ru Irina V. Mantorova North-Caucasus Federal University, branch in Pyatigorsk Pyatigorsk, Russia bzfbzf2006@yandex.ru  Igor N. Kutovoy Pyatigorsk State University Pyatigorsk, Russia kv1961@live.ru   Abstract \u2014 The article deals with development methods of mineral water fields data structure model.",
       "problem": "What is the problem for us with mineral water fields database development?",
@@ -481,375 +860,6 @@
         "ARPN Journal of Engineering and Applied Sciences , 2019, no 14 (22), pp.",
         "3852-3864.",
         ""
-      ]
-    }
-  },
-  {
-    "data": {
-      "name": "Lock-free Concurrent Data Structures and How to Model their Performance",
-      "objective": "Lock-free algorithmicdesigns of concurrent data structures [1] were introduced inthe quest for better performance and scalability and are widelyused in practice, e.g.",
-      "problem": "[2] Intels threading building blocks framework.https://www.threadingbuildingblocks.org/ .",
-      "method": null,
-      "contribution": "These results take into consideration the un-derlying hardware.",
-      "frequency": [
-        [
-          "free",
-          11
-        ],
-        [
-          "Lock",
-          10
-        ],
-        [
-          "data",
-          9
-        ],
-        [
-          "performance",
-          9
-        ],
-        [
-          "lock",
-          9
-        ],
-        [
-          "In",
-          9
-        ],
-        [
-          "structures",
-          6
-        ],
-        [
-          "concurrent",
-          6
-        ],
-        [
-          "Data",
-          5
-        ],
-        [
-          "Structures",
-          5
-        ]
-      ],
-      "references": [
-        "[1] Maurice Herlihy and Nir Shavit, \u201cThe art of multiprocessor program-ming, Morgan Kaufmann, 2011.",
-        "[2] Intels threading building blocks framework.https://www.threadingbuildingblocks.org/ .",
-        "Accessed: 2019-05-20.",
-        "[3] Java concurrency package.https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/package-summary.html.",
-        "Accessed: 2019-05-20.",
-        "[4] Microsoft .net framework.",
-        "https://dotnet.microsoft.com/ .",
-        "Accessed:2019-05-20.",
-        "[5] Hagit Attiya and Arie Fouren, \u201cAlgorithms adapting to point contention.,Journal of the ACM (JACM), 50(4): 444\u2013468, 2003.",
-        "[6] Yehuda Afek, Gideon Stupp, and Dan Touitou, \u201cLong lived adaptivesplitter and applications, Distributed Computing, 15(2): 67-86, 2002.",
-        "[7] Hagit Attiya, Rachid Guerraoui, and Petr Kouznetsov, \u201cComputing withreads and writes in the absence of step contention, In InternationalSymposium on Distributed Computing (DISC), pages 122-136, 2005.",
-        "[8] Aras Atalar, Paul Renaud-Goud and Philippas Tsigas, \u201cAnalyzing thePerformance of Lock-Free Data Structures: A Con\ufb02ict-Based Model,In the Proceedings of 29th International Symposium on DistributedComputing (DISC 2015), pages 341\u2013355, Springer 2015.",
-        "[9] Aras Atalar, Paul Renaud-Goud and Philippas Tsigas, \u201cHow Lock-free Data Structures Perform in Dynamic Environments: Models andAnalyses, In the Proceedings of the 20th International Conference onPrinciples of Distributed Systems (OPODIS 2016), pages 1\u201317, SchlossDagstuhl - Leibniz-Zentrum fuer Informatik.",
-        "[10] Aras Atalar, Paul Renaud-Goud and Philippas Tsigas, \u201cLock-Free SearchData Structures: Throughput Modeling with Poisson Processes, In theProceedings of the 21st International Conference on Principles ofDistributed Systems (OPODIS 2018), pages 9:1\u20139:16, Schloss Dagstuhl- Leibniz-Zentrum fuer Informatik.",
-        "[11] Aras Atalar, Anders Gidenstam, Paul Renaud-Goud and Philippas Tsi-gas, \u201cModeling Energy Consumption of Lock-Free Queue Implemen-tations, In the Proceedings of 29th IEEE International Parallel andDistributed Processing Symposium (IPDPS 2015), pages 229\u2013238, IEEEPress 2015.2"
-      ]
-    }
-  },
-  {
-    "data": {
-      "name": "Efficient Data Structure Based Smart Card Implementation",
-      "objective": "Smart cards are small in size so it is easy to carry.They have enough processing power and sufficient data storage capabilities to store user profiles, to carry out cryptographic functions, and to support electronic commerce or other type of applications.Data is organized in smart card in the form of files.",
-      "problem": "Algorithms and datastructures are developed in [2] to solve security problem.",
-      "method": "Data referencing methods are also described.After detailed analysis of different data structures in term of the time taken by insertion, deletion and search operation, we have seen the BST is best for search operation and also optimal to insertion and deletion operation.",
-      "contribution": "The experimental results on smart cards of water meter, such as the RF card, TM card and IC card show that the general read-write system is feasible, and the read-write efficiency is not affected, possessing good operating conditions and scalability in [1].System like Smart card is a portable media which store sensible data.",
-      "frequency": [
-        [
-          "data",
-          69
-        ],
-        [
-          "record",
-          63
-        ],
-        [
-          "EF",
-          62
-        ],
-        [
-          "card",
-          57
-        ],
-        [
-          "file",
-          45
-        ],
-        [
-          "smart",
-          37
-        ],
-        [
-          "structure",
-          32
-        ],
-        [
-          "time",
-          25
-        ],
-        [
-          "identifier",
-          22
-        ],
-        [
-          "records",
-          21
-        ]
-      ],
-      "references": [
-        "[1].",
-        "Rang-ding Wang , Wei Wang ,\u201cDesign and implementation of the general read-write system of the smart card\u201d, 3rd IEEE International Conference on Ubi-media Computing (U-Media), 2010.[2].",
-        "R Sanchez Reillo, \u201cSecuring information and operations in a smart card through biometrics\u201d, Proceedings of  IEEE 34th Annual International Carnahan Conference on Security Technology, 2000.[3].",
-        "Ming-Sheng Liu; Hui Liu; Yin-Hua Ma; Wen-Xiong Li, \u201cResearch on precautions against data disaster of logic security smart card\u201d, Proceedings of  International Conference on Machine Learning and Cybernetics, 2004.[4].",
-        "Yoon-Sim Yang; Won-Ho Choi; Min-Sik Jin; Cheul-Jun Hwang; Min-Soo Jung, \u201cAn Advanced Java Card System Architecture for Smart Card Based on Large RAM Memory\u201d, International Conference on Hybrid Information Technology, 2006.",
-        "[5].",
-        "Chen Yuqiang; Hu Xuanzi ; Guo Jianlan ; Liu Liang, \u201cDesign and implementation of Smart Card COS\u201d, International Conference on Computer Application and System Modeling (ICCASM), 22-24 October 2010.",
-        "[6].",
-        "Chandramouli, R.; Lee, P., \u201cInfrastructure Standards for Smart ID Card Deployment\u201d, IEEE Security & Privacy, Volume:5, Issue:2, pp.",
-        "92-96, 2007468"
-      ]
-    }
-  },
-  {
-    "data": {
-      "name": "Universal Linear Data Structure",
-      "objective": "The conditions that these functions must meet are introduced as axioms.",
-      "problem": "Universal Linear Data StructureRustam Kabulov Vosilovich Candidate of Physical and Mathematical Sciences, Associate Professor, department of software engineering  Tashkent University of Information Techno logies named after Muhammad al-Khwariz imi, 100200, Republic of Uzbekistan, Tashkent, Amir Temur str., 108 kabulov_rustam1959@mail.ru   Abstract\u2014The paper is devoted to the relevant issue of formalizing the description of a universal linear data structure.",
-      "method": "Purpose of work: development of methods for formalizing description and specifications of sequential data structures as close as possible to real programming practice.II.",
-      "contribution": null,
-      "frequency": [
-        [
-          "CONTAINER",
-          26
-        ],
-        [
-          "data",
-          23
-        ],
-        [
-          "A1",
-          23
-        ],
-        [
-          "The",
-          22
-        ],
-        [
-          "count",
-          15
-        ],
-        [
-          "programming",
-          14
-        ],
-        [
-          "structures",
-          12
-        ],
-        [
-          "container",
-          12
-        ],
-        [
-          "size",
-          12
-        ],
-        [
-          "a0",
-          12
-        ]
-      ],
-      "references": [
-        "  [1] Alexandrescu A.",
-        "Modern C++ design.",
-        "The C++ InDepth series, vol.",
-        "3 / TRANS.",
-        "from English.",
-        "\u2014 M.: William, 2002.",
-        "\u2014 336 S., ill. [2] Ammeraal L. STL for C++ programmers / TRANS.",
-        "from English.",
-        "\u2014 M.:DMK, 1999.",
-        "- 240 p., Il.",
-        "",
-        "Downloaded on February 28,2024 at 23:08:16 UTC from IEEE Xplore.",
-        "Restrictions apply.",
-        "[3] Ostern M. Generic programming and the STL: The use and capacity of the standard template library / Per.",
-        "with angl.- SPb.",
-        ": Nevsky dialect, 2004.- 544 p., Il.",
-        "[4] Aho A. V, Hopcroft J. E., Ullman J. D. Data structures and algorithms = Data Structures and Algorithms.",
-        "Williams, 2000.",
-        "\u2014 384 C. [5] A.",
-        "B. Tucker and R. E. Noonan.",
-        "Programming Languages: Principles and Paradigms, Second Edition.",
-        "McGraw-Hill Higher Education, 2007.",
-        "[6] Knut D. The art of programming.",
-        "Volume 1.",
-        "Basic algorithms.",
-        "Williams, 2010.",
-        "[7] Liskov B., Zilles S. Programming with abstract data types // SIGPlan Notices, vol.",
-        "9, no.",
-        "4, 1974.",
-        "[8] B. Liskov.",
-        "A history of CLU.",
-        "In History of programming languages \u2014II, pages 471 \u2013510.",
-        "ACM, 1996 [9] L. Cardelli.",
-        "A semantics of multiple inheritance.",
-        "In Semantics of Data Types, volume 173 of Lecture Notes in Computer Science, pages 51 \u201368.",
-        "Springer-Verlag, 1984.",
-        "[10] Bertrand Meyer.",
-        "The basics of object-oriented programming.",
-        "Abstract data types (ADT).",
-        "http://www.intuit.ru/department / se / oopbases / 6 / 10.html  .",
-        "[11] B. C. Pierce.",
-        "Types and Programming Languages.",
-        "MIT Press, 2002.",
-        "[12] Glushkov V. M., Zeitlin, G. E., Yushchenko E. L. Algebra.",
-        "Languages.",
-        "Programming.",
-        "3-e Izd., Rev.",
-        "and DOP.",
-        "\u2013 Kiev: Sciences.",
-        "Dumka, 1989.",
-        "-376 p. [13] Yu.",
-        "V. Kapitonova, A.",
-        "A. Letichevskii, and V. A. Volkov, \"Deductive tools of an algebraic programming system,\" Cybernetics and System AnalysisNo.",
-        "1, 12-26 (2000).",
-        "[14] Kryvyi S. L. Abstract data types as polybasic algebraic system.",
-        "\u2013 K.: well.",
-        "\"Software engineering\".",
-        "\u2013  2010.",
-        "- \u2116 3.",
-        "\u2013 C. 3 -18.",
-        "[15] A. E. Doroshenko, O. V. Iovchev A method of designing an abstract data type in algebra of Algorithmics // Problems of programming.",
-        "\u2013 2012.",
-        "\u2013 No.",
-        "1.",
-        "\u2013  P. 3 \u2013 16.",
-        "[16] Kabulov R.V., Latipova N. Axiomatic approach to the definition of abstract types of data.",
-        "// \"Important issues in the field of technical and socio-economic sciences.\"",
-        "Republican collection of interuniversity scientific works.",
-        "Tashkent Institute of Chemistry and Technology.",
-        "Tashkent.",
-        "2015 pp.48-49.",
-        ""
-      ]
-    }
-  },
-  {
-    "data": {
-      "name": "Philosophy of Data Structures in Engineering Education",
-      "objective": "Thisarticle explains the relationship and connectivity of these corecourses.",
-      "problem": "The article focus onthe method of providing connectivity between the building blocksof DS like Data Containers, Container Iterators, Algorithms andFunctors.",
-      "method": "The article focus onthe method of providing connectivity between the building blocksof DS like Data Containers, Container Iterators, Algorithms andFunctors.",
-      "contribution": null,
-      "frequency": [
-        [
-          "DS",
-          20
-        ],
-        [
-          "data",
-          17
-        ],
-        [
-          "The",
-          13
-        ],
-        [
-          "structures",
-          12
-        ],
-        [
-          "Data",
-          11
-        ],
-        [
-          "courses",
-          9
-        ],
-        [
-          "like",
-          7
-        ],
-        [
-          "Fig",
-          7
-        ],
-        [
-          "What",
-          7
-        ],
-        [
-          "pedagogy",
-          5
-        ]
-      ],
-      "references": []
-    }
-  },
-  {
-    "data": {
-      "name": "Efficient Video Data Structure and Compression Scheme for Fabric Wicking Phenomenon Studies",
-      "objective": "Speci\ufb01cally, wehave developed a preliminary wetting event timestamp de-tection algorithm [3] that works at the level of the indi-vidual time series of each pixel location of the wicking-performance video.",
-      "problem": null,
-      "method": "W e havebeen working with textile scientists to automate a newly de-signed video-based test method that targets at analyzing theyarn-level wicking behaviors of fabrics.",
-      "contribution": "W e also propose a compressionscheme specially designed for the proposed data structure.Experimental results show that the proposed data structureand compression scheme can store the video information inmanageable \ufb01le size while providing visual quality at a cus-tomized level.1.",
-      "frequency": [
-        [
-          "video",
-          34
-        ],
-        [
-          "wicking",
-          28
-        ],
-        [
-          "time",
-          28
-        ],
-        [
-          "data",
-          27
-        ],
-        [
-          "size",
-          20
-        ],
-        [
-          "The",
-          19
-        ],
-        [
-          "pixel",
-          18
-        ],
-        [
-          "block",
-          18
-        ],
-        [
-          "structure",
-          17
-        ],
-        [
-          "blocks",
-          16
-        ]
-      ],
-      "references": [
-        "[1] V ertical Wicking of T extiles, AA TCC Std.",
-        "TM197, 2013.",
-        "[2] B. Miller and I. Tyomkin, \u201cSpontaneous transplanar uptake ofliquids by fabrics,\u201d T extile Research Journal, vol.",
-        "54, no.",
-        "11,pp.",
-        "706\u2013712, Nov.",
-        "1984.",
-        "[3] X. Liu and C.-W. Wong, \u201cVideo-based wetting detection forblended fabrics,\u201d in IEEE International Conference on ImageProcessing (ICIP\u201919), Brighton, UK, May 2019, submitted.418"
       ]
     }
   }
