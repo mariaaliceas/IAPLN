@@ -7,6 +7,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+body{
+  background-color: aliceblue;
+}
+
 .App-logo {
   height: 10vmin;
   pointer-events: none;
