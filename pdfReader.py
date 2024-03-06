@@ -9,6 +9,7 @@ nltk.download('punkt')
 from PyPDF2 import PdfReader
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize, sent_tokenize, RegexpTokenizer
+from nltk.probability import FreqDist
 from collections import Counter
 
 tratar_texto = True
@@ -24,13 +25,13 @@ def process_pdf(pdf_file_path):
 
     text = text.replace('\n', '')
     text = text.replace('\r', '')
-    text = text.lower()
+    #text = text.lower()
     words = tokenizer.tokenize(text)
     sentences = sent_tokenize(text)
     sentences_treatment = []
 
     for sentence in sentences:
-        sentences_treatment.append(sentence.replace('\n', " "))
+        sentences_treatment.append(sentence.replace('\n', ""))
 
     texto = []
     references = []
@@ -40,6 +41,7 @@ def process_pdf(pdf_file_path):
     problem = ''
     method = ''
     contribution = ''
+    frequency = []
     reference = False
 
     list_words = ['idea', 'inspired', 'analyzed', 'have seen', 'organized', 'developed', 'proposes', 'approach', 'develop', 'introduced', 'contribute', 'explain', 'introduces']
@@ -47,30 +49,43 @@ def process_pdf(pdf_file_path):
     list_methods = ['method', 'methodology', 'interviews', 'survey', 'content analysis']
     list_contributions = ['type of teaching', 'contribution', 'contributions', 'findings', 'results', 'insights', 'conclusions', 'implications', 'significance', 'impact', 'relevance', 'discoveries', 'advances', 'key points', 'novelty', 'originality']
 
-    def remove_references(reference):
-        for i, word in enumerate(words):
-            if (word == 'r' and words[i + 1] == 'eferences') or (word == 'references' and words[i + 1] == '1'):
+    def remove_references(sentences, reference):
+        authorized = False
+        for sentence in sentences:
+            if(not reference and 'REFERENCES' in sentence):
+                sentence = sentence[sentence.rfind("REFERENCES")+10:]
                 reference = True
+            elif(not reference and 'References' in sentence):
+                sentence = sentence[sentence.rfind("References")+10:]
+                reference = True
+                
             if reference:
-                if word == 'authorized':
-                    references.pop()
-                    break
-                references.append(word.lower())
-            else:
-                texto.append(word.lower())
+                if('Authorized' in sentence):
+                    sentence = sentence[:sentence.rfind("Authorized")]
+                    authorized = True
+                references.append(sentence)
 
-    def text_treatment(word):
+        if(authorized):
+            references.pop()
+            references.pop()
+
+    def text_treatment(words):
         reference = []
         if not tratar_texto:
             True
         else:
             stop_words = stopwords.words('english')
 
-            for word in words:
+            for i,word in enumerate(words):
                 if (word == 'r' and words[i + 1] == 'eferences') or (word == 'references' and words[i + 1] == '1'):
                     reference = True
                 if (word not in stop_words) and not reference:
-                    texto.append(word)
+                    if(len(word) < 2):
+                        continue
+                    elif(word.isnumeric()):
+                        continue
+                    else:
+                        texto.append(word)
                 elif (word not in stop_words) and reference:
                     if word == 'authorized':
                         references.pop()
@@ -104,6 +119,9 @@ def process_pdf(pdf_file_path):
             if (any(substring in s for substring in list_contributions)):
                 return sentence
 
+    remove_references(sentences, reference)
+    text = text.lower()
+    text_treatment(words)
     bag_of_words = Counter(words)
     most_commons = bag_of_words.most_common(10)
     objective = get_objective(sentences, list_words)
@@ -111,15 +129,17 @@ def process_pdf(pdf_file_path):
     method = get_method(sentences, list_methods)
     contribution = get_contribution(sentences, list_contributions)
 
+    frequency = nltk.FreqDist(texto).most_common(10)
+
     article = {
         "data": {
-            "name": pdf_file_path,
-            "bag_of_words": bag_of_words,
-            "most_commons": most_commons,
+            "name": pdf_reader.metadata.title,
             "objective": objective,
             "problem": problem,
             "method": method,
-            "contribution": contribution
+            "contribution": contribution,
+            "frequency": frequency,
+            "references": references
         }
     }
 
@@ -135,5 +155,5 @@ for filename in os.listdir(pdf_directory):
         article_data = process_pdf(pdf_path)
         articles.append(article_data)
 
-with open("datafile.json", "w") as write:
-    json.dump(articles, write)
+with open("./interface/src/datafile.json", "w") as write:
+    json.dump(articles, write, indent = 2)
