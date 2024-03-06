@@ -13,7 +13,7 @@ function App() {
   const [inputContribution, setInputContribution] = useState('');
   const [inputName, setInputName] = useState('');
   const [inputFrequence, setInputFrequence] = useState([] as any);
-  const [inputReferences, setInputReferences] = useState({} as any);
+  const [inputReferences, setInputReferences] = useState([] as any);
 
   const handleInputChange = (event: any) => {
     setInputValue(event.target.value);
@@ -34,9 +34,9 @@ function App() {
     setInputFrequence(article?.data.frequency ?? [])
     setInputReferences(article?.data.references ?? {})
 
-    console.log(inputFrequence)
+    // console.log(inputFrequence)
 
-    console.log(article?.data.frequency)
+    // console.log(article?.data.frequency)
   }
 
   

@@ -1,194 +1,6 @@
 [
   {
     "data": {
-      "arqName": "articles/4.pdf",
-      "name": "Efficient Video Data Structure and Compression Scheme for Fabric Wicking Phenomenon Studies",
-      "objective": "Speci\ufb01cally, wehave developed a preliminary wetting event timestamp de-tection algorithm [3] that works at the level of the indi-vidual time series of each pixel location of the wicking-performance video.",
-      "problem": null,
-      "method": "W e havebeen working with textile scientists to automate a newly de-signed video-based test method that targets at analyzing theyarn-level wicking behaviors of fabrics.",
-      "contribution": "W e also propose a compressionscheme specially designed for the proposed data structure.Experimental results show that the proposed data structureand compression scheme can store the video information inmanageable \ufb01le size while providing visual quality at a cus-tomized level.1.",
-      "frequency": [
-        [
-          "video",
-          34
-        ],
-        [
-          "wicking",
-          28
-        ],
-        [
-          "time",
-          28
-        ],
-        [
-          "data",
-          27
-        ],
-        [
-          "size",
-          20
-        ],
-        [
-          "The",
-          19
-        ],
-        [
-          "pixel",
-          18
-        ],
-        [
-          "block",
-          18
-        ],
-        [
-          "structure",
-          17
-        ],
-        [
-          "blocks",
-          16
-        ]
-      ],
-      "references": [
-        "[1] V ertical Wicking of T extiles, AA TCC Std.",
-        "TM197, 2013.",
-        "[2] B. Miller and I. Tyomkin, \u201cSpontaneous transplanar uptake ofliquids by fabrics,\u201d T extile Research Journal, vol.",
-        "54, no.",
-        "11,pp.",
-        "706\u2013712, Nov.",
-        "1984.",
-        "[3] X. Liu and C.-W. Wong, \u201cVideo-based wetting detection forblended fabrics,\u201d in IEEE International Conference on ImageProcessing (ICIP\u201919), Brighton, UK, May 2019, submitted.418"
-      ]
-    }
-  },
-  {
-    "data": {
-      "arqName": "articles/10.pdf",
-      "name": "Universal Linear Data Structure",
-      "objective": "The conditions that these functions must meet are introduced as axioms.",
-      "problem": "Universal Linear Data StructureRustam Kabulov Vosilovich Candidate of Physical and Mathematical Sciences, Associate Professor, department of software engineering  Tashkent University of Information Techno logies named after Muhammad al-Khwariz imi, 100200, Republic of Uzbekistan, Tashkent, Amir Temur str., 108 kabulov_rustam1959@mail.ru   Abstract\u2014The paper is devoted to the relevant issue of formalizing the description of a universal linear data structure.",
-      "method": "Purpose of work: development of methods for formalizing description and specifications of sequential data structures as close as possible to real programming practice.II.",
-      "contribution": null,
-      "frequency": [
-        [
-          "CONTAINER",
-          26
-        ],
-        [
-          "data",
-          23
-        ],
-        [
-          "A1",
-          23
-        ],
-        [
-          "The",
-          22
-        ],
-        [
-          "count",
-          15
-        ],
-        [
-          "programming",
-          14
-        ],
-        [
-          "structures",
-          12
-        ],
-        [
-          "container",
-          12
-        ],
-        [
-          "size",
-          12
-        ],
-        [
-          "a0",
-          12
-        ]
-      ],
-      "references": [
-        "  [1] Alexandrescu A.",
-        "Modern C++ design.",
-        "The C++ InDepth series, vol.",
-        "3 / TRANS.",
-        "from English.",
-        "\u2014 M.: William, 2002.",
-        "\u2014 336 S., ill. [2] Ammeraal L. STL for C++ programmers / TRANS.",
-        "from English.",
-        "\u2014 M.:DMK, 1999.",
-        "- 240 p., Il.",
-        "",
-        "Downloaded on February 28,2024 at 23:08:16 UTC from IEEE Xplore.",
-        "Restrictions apply.",
-        "[3] Ostern M. Generic programming and the STL: The use and capacity of the standard template library / Per.",
-        "with angl.- SPb.",
-        ": Nevsky dialect, 2004.- 544 p., Il.",
-        "[4] Aho A. V, Hopcroft J. E., Ullman J. D. Data structures and algorithms = Data Structures and Algorithms.",
-        "Williams, 2000.",
-        "\u2014 384 C. [5] A.",
-        "B. Tucker and R. E. Noonan.",
-        "Programming Languages: Principles and Paradigms, Second Edition.",
-        "McGraw-Hill Higher Education, 2007.",
-        "[6] Knut D. The art of programming.",
-        "Volume 1.",
-        "Basic algorithms.",
-        "Williams, 2010.",
-        "[7] Liskov B., Zilles S. Programming with abstract data types // SIGPlan Notices, vol.",
-        "9, no.",
-        "4, 1974.",
-        "[8] B. Liskov.",
-        "A history of CLU.",
-        "In History of programming languages \u2014II, pages 471 \u2013510.",
-        "ACM, 1996 [9] L. Cardelli.",
-        "A semantics of multiple inheritance.",
-        "In Semantics of Data Types, volume 173 of Lecture Notes in Computer Science, pages 51 \u201368.",
-        "Springer-Verlag, 1984.",
-        "[10] Bertrand Meyer.",
-        "The basics of object-oriented programming.",
-        "Abstract data types (ADT).",
-        "http://www.intuit.ru/department / se / oopbases / 6 / 10.html  .",
-        "[11] B. C. Pierce.",
-        "Types and Programming Languages.",
-        "MIT Press, 2002.",
-        "[12] Glushkov V. M., Zeitlin, G. E., Yushchenko E. L. Algebra.",
-        "Languages.",
-        "Programming.",
-        "3-e Izd., Rev.",
-        "and DOP.",
-        "\u2013 Kiev: Sciences.",
-        "Dumka, 1989.",
-        "-376 p. [13] Yu.",
-        "V. Kapitonova, A.",
-        "A. Letichevskii, and V. A. Volkov, \"Deductive tools of an algebraic programming system,\" Cybernetics and System AnalysisNo.",
-        "1, 12-26 (2000).",
-        "[14] Kryvyi S. L. Abstract data types as polybasic algebraic system.",
-        "\u2013 K.: well.",
-        "\"Software engineering\".",
-        "\u2013  2010.",
-        "- \u2116 3.",
-        "\u2013 C. 3 -18.",
-        "[15] A. E. Doroshenko, O. V. Iovchev A method of designing an abstract data type in algebra of Algorithmics // Problems of programming.",
-        "\u2013 2012.",
-        "\u2013 No.",
-        "1.",
-        "\u2013  P. 3 \u2013 16.",
-        "[16] Kabulov R.V., Latipova N. Axiomatic approach to the definition of abstract types of data.",
-        "// \"Important issues in the field of technical and socio-economic sciences.\"",
-        "Republican collection of interuniversity scientific works.",
-        "Tashkent Institute of Chemistry and Technology.",
-        "Tashkent.",
-        "2015 pp.48-49.",
-        ""
-      ]
-    }
-  },
-  {
-    "data": {
       "arqName": "articles/5.pdf",
       "name": "Explainable Story and Visualization for Learning Data Structure Concepts",
       "objective": "We have developed new expressions that serve as a bridge between data structure concepts and their logical structures.",
@@ -335,73 +147,6 @@
   },
   {
     "data": {
-      "arqName": "articles/6.pdf",
-      "name": "Fine-grained parallel traversals of irregular data structures",
-      "objective": "This pa-per develops compiler and runtime support to exploit such data par-allelism for non-numeric, non-graphic, irregular parallel tasks thatperform simple computations while traversing many independent,irregular data structures, like trees and graphs.",
-      "problem": "Second, to enable SIMD execution, we demonstratehow to turn \ufb01ne-grained task parallelism\u2014in the form of traversingmany irregular data structures\u2014into \ufb01ne-grained data parallelismby emulating a MIMD machine in SIMD hardware.In this paper, we develop compiler and runtime support to ad-dress these challenges and demonstrate that our approach is effec-tive by speeding up two random forest implementations by over10X across many inputs.2.",
-      "method": null,
-      "contribution": "The virtual machine then masks away the results of byte-codes whose types are not represented by the current operation.In effect, the virtual machine is using interpretation to emulatea MIMD machine with SIMD, a topic that has been studied in thepast [5, 2, 1, 4].3.",
-      "frequency": [
-        [
-          "SIMD",
-          32
-        ],
-        [
-          "data",
-          23
-        ],
-        [
-          "node",
-          17
-        ],
-        [
-          "irregular",
-          14
-        ],
-        [
-          "trees",
-          12
-        ],
-        [
-          "machine",
-          11
-        ],
-        [
-          "parallel",
-          9
-        ],
-        [
-          "structures",
-          9
-        ],
-        [
-          "one",
-          9
-        ],
-        [
-          "leaf",
-          9
-        ]
-      ],
-      "references": [
-        "[1] Guy E. Blelloch, Siddhartha Chatterjee, Jonathan C. Hardwick, Jay Sipelstein,and Marco Zagha.",
-        "Implementation of a portable nested data-parallel language.Journal of Parallel and Distributed Computing , 21(1):4\u201314, April 1994.",
-        "[2] H. G. Dietz and W. E. Cohen.",
-        "A massively parallel mimd implemented by simdhardware?",
-        "Technical report, Purdue University, 1992.",
-        "[3] A. Frank and A. Asuncion.",
-        "UCI machine learning repository, 2010.",
-        "[4] Jonathan C. Hardwick.",
-        "An ef\ufb01cient implementation of nested data parallelismfor irregular divide-and-conquer algorithms.",
-        "In Proceedings of the FirstInternational Workshop on High-Level Programming Models and SupportiveEnvironments , pages 105\u2013114, April 1996.",
-        "[5] Reinhard von Hanxleden and Ken Kennedy.",
-        "Relaxing simd control \ufb02owconstraints using loop transformations.",
-        "In PLDI , pages 188\u2013199, 1992.462"
-      ]
-    }
-  },
-  {
-    "data": {
       "arqName": "articles/3.pdf",
       "name": "Efficient Data Structure Based Smart Card Implementation",
       "objective": "Smart cards are small in size so it is easy to carry.They have enough processing power and sufficient data storage capabilities to store user profiles, to carry out cryptographic functions, and to support electronic commerce or other type of applications.Data is organized in smart card in the form of files.",
@@ -461,69 +206,6 @@
         "[6].",
         "Chandramouli, R.; Lee, P., \u201cInfrastructure Standards for Smart ID Card Deployment\u201d, IEEE Security & Privacy, Volume:5, Issue:2, pp.",
         "92-96, 2007468"
-      ]
-    }
-  },
-  {
-    "data": {
-      "arqName": "articles/1.pdf",
-      "name": "Code-Viz: Data Structure Specific Visualization and Animation Tool For User-Provided Code",
-      "objective": "Keywords \u2014 Visualization, Animation, Imagery, Data Structures, Language Agnostici sm, Immersive Understanding, Involved Learning I. I NTRODUCTIONThe idea for this project was inspired by the need of visualisation for user defined algorithms and data structures.",
-      "problem": "P ROBLEM STATEMENTBuilding a tool which accepts code as input from the user and generates simple, explanat ive  visualization of line-by-line execution of the code, and provides data structure specific animation for the data structure  used.",
-      "method": null,
-      "contribution": null,
-      "frequency": [
-        [
-          "code",
-          45
-        ],
-        [
-          "data",
-          36
-        ],
-        [
-          "The",
-          22
-        ],
-        [
-          "visualization",
-          22
-        ],
-        [
-          "user",
-          21
-        ],
-        [
-          "Fig",
-          21
-        ],
-        [
-          "structures",
-          19
-        ],
-        [
-          "tool",
-          17
-        ],
-        [
-          "used",
-          15
-        ],
-        [
-          "end",
-          15
-        ]
-      ],
-      "references": [
-        "[1] Guo, Philip J , \"Online python tu tor: embeddable web-based program visualization for CS education.\".",
-        "ACM Technical Symposium on Computer science education, 2013.",
-        "[2] Heinsen Egan, M., & McDonald, C , An evaluation of SeeC: a tool designed to assist novice C prog rammers with program understanding and debugging.",
-        "Computer Science Education, 1-34, 2020.",
-        "[3] Ryosuke Ishizue, et al.",
-        ", PVC.js: visualizing C programs on web browsers for novices.",
-        "Heliyon,  Volume 6 Issue 4, 2020.",
-        "[4] David Galles, Data Structures Visualization https://www.cs.usfca.edu/~galles /visualization/source.html.",
-        "2011 8"
       ]
     }
   },
@@ -622,59 +304,6 @@
   },
   {
     "data": {
-      "arqName": "articles/8.pdf",
-      "name": "Philosophy of Data Structures in Engineering Education",
-      "objective": "Thisarticle explains the relationship and connectivity of these corecourses.",
-      "problem": "The article focus onthe method of providing connectivity between the building blocksof DS like Data Containers, Container Iterators, Algorithms andFunctors.",
-      "method": "The article focus onthe method of providing connectivity between the building blocksof DS like Data Containers, Container Iterators, Algorithms andFunctors.",
-      "contribution": null,
-      "frequency": [
-        [
-          "DS",
-          20
-        ],
-        [
-          "data",
-          17
-        ],
-        [
-          "The",
-          13
-        ],
-        [
-          "structures",
-          12
-        ],
-        [
-          "Data",
-          11
-        ],
-        [
-          "courses",
-          9
-        ],
-        [
-          "like",
-          7
-        ],
-        [
-          "Fig",
-          7
-        ],
-        [
-          "What",
-          7
-        ],
-        [
-          "pedagogy",
-          5
-        ]
-      ],
-      "references": []
-    }
-  },
-  {
-    "data": {
       "arqName": "articles/7.pdf",
       "name": "Lock-free Concurrent Data Structures and How to Model their Performance",
       "objective": "Lock-free algorithmicdesigns of concurrent data structures [1] were introduced inthe quest for better performance and scalability and are widelyused in practice, e.g.",
@@ -740,6 +369,315 @@
         "[10] Aras Atalar, Paul Renaud-Goud and Philippas Tsigas, \u201cLock-Free SearchData Structures: Throughput Modeling with Poisson Processes, In theProceedings of the 21st International Conference on Principles ofDistributed Systems (OPODIS 2018), pages 9:1\u20139:16, Schloss Dagstuhl- Leibniz-Zentrum fuer Informatik.",
         "[11] Aras Atalar, Anders Gidenstam, Paul Renaud-Goud and Philippas Tsi-gas, \u201cModeling Energy Consumption of Lock-Free Queue Implemen-tations, In the Proceedings of 29th IEEE International Parallel andDistributed Processing Symposium (IPDPS 2015), pages 229\u2013238, IEEEPress 2015.2"
       ]
+    }
+  },
+  {
+    "data": {
+      "arqName": "articles/6.pdf",
+      "name": "Fine-grained parallel traversals of irregular data structures",
+      "objective": "This pa-per develops compiler and runtime support to exploit such data par-allelism for non-numeric, non-graphic, irregular parallel tasks thatperform simple computations while traversing many independent,irregular data structures, like trees and graphs.",
+      "problem": "Second, to enable SIMD execution, we demonstratehow to turn \ufb01ne-grained task parallelism\u2014in the form of traversingmany irregular data structures\u2014into \ufb01ne-grained data parallelismby emulating a MIMD machine in SIMD hardware.In this paper, we develop compiler and runtime support to ad-dress these challenges and demonstrate that our approach is effec-tive by speeding up two random forest implementations by over10X across many inputs.2.",
+      "method": null,
+      "contribution": "The virtual machine then masks away the results of byte-codes whose types are not represented by the current operation.In effect, the virtual machine is using interpretation to emulatea MIMD machine with SIMD, a topic that has been studied in thepast [5, 2, 1, 4].3.",
+      "frequency": [
+        [
+          "SIMD",
+          32
+        ],
+        [
+          "data",
+          23
+        ],
+        [
+          "node",
+          17
+        ],
+        [
+          "irregular",
+          14
+        ],
+        [
+          "trees",
+          12
+        ],
+        [
+          "machine",
+          11
+        ],
+        [
+          "parallel",
+          9
+        ],
+        [
+          "structures",
+          9
+        ],
+        [
+          "one",
+          9
+        ],
+        [
+          "leaf",
+          9
+        ]
+      ],
+      "references": [
+        "[1] Guy E. Blelloch, Siddhartha Chatterjee, Jonathan C. Hardwick, Jay Sipelstein,and Marco Zagha.",
+        "Implementation of a portable nested data-parallel language.Journal of Parallel and Distributed Computing , 21(1):4\u201314, April 1994.",
+        "[2] H. G. Dietz and W. E. Cohen.",
+        "A massively parallel mimd implemented by simdhardware?",
+        "Technical report, Purdue University, 1992.",
+        "[3] A. Frank and A. Asuncion.",
+        "UCI machine learning repository, 2010.",
+        "[4] Jonathan C. Hardwick.",
+        "An ef\ufb01cient implementation of nested data parallelismfor irregular divide-and-conquer algorithms.",
+        "In Proceedings of the FirstInternational Workshop on High-Level Programming Models and SupportiveEnvironments , pages 105\u2013114, April 1996.",
+        "[5] Reinhard von Hanxleden and Ken Kennedy.",
+        "Relaxing simd control \ufb02owconstraints using loop transformations.",
+        "In PLDI , pages 188\u2013199, 1992.462"
+      ]
+    }
+  },
+  {
+    "data": {
+      "arqName": "articles/10.pdf",
+      "name": "Universal Linear Data Structure",
+      "objective": "The conditions that these functions must meet are introduced as axioms.",
+      "problem": "Universal Linear Data StructureRustam Kabulov Vosilovich Candidate of Physical and Mathematical Sciences, Associate Professor, department of software engineering  Tashkent University of Information Techno logies named after Muhammad al-Khwariz imi, 100200, Republic of Uzbekistan, Tashkent, Amir Temur str., 108 kabulov_rustam1959@mail.ru   Abstract\u2014The paper is devoted to the relevant issue of formalizing the description of a universal linear data structure.",
+      "method": "Purpose of work: development of methods for formalizing description and specifications of sequential data structures as close as possible to real programming practice.II.",
+      "contribution": null,
+      "frequency": [
+        [
+          "CONTAINER",
+          26
+        ],
+        [
+          "data",
+          23
+        ],
+        [
+          "A1",
+          23
+        ],
+        [
+          "The",
+          22
+        ],
+        [
+          "count",
+          15
+        ],
+        [
+          "programming",
+          14
+        ],
+        [
+          "structures",
+          12
+        ],
+        [
+          "container",
+          12
+        ],
+        [
+          "size",
+          12
+        ],
+        [
+          "a0",
+          12
+        ]
+      ],
+      "references": [
+        "  [1] Alexandrescu A.",
+        "Modern C++ design.",
+        "The C++ InDepth series, vol.",
+        "3 / TRANS.",
+        "from English.",
+        "\u2014 M.: William, 2002.",
+        "\u2014 336 S., ill. [2] Ammeraal L. STL for C++ programmers / TRANS.",
+        "from English.",
+        "\u2014 M.:DMK, 1999.",
+        "- 240 p., Il.",
+        "",
+        "Downloaded on February 28,2024 at 23:08:16 UTC from IEEE Xplore.",
+        "Restrictions apply.",
+        "[3] Ostern M. Generic programming and the STL: The use and capacity of the standard template library / Per.",
+        "with angl.- SPb.",
+        ": Nevsky dialect, 2004.- 544 p., Il.",
+        "[4] Aho A. V, Hopcroft J. E., Ullman J. D. Data structures and algorithms = Data Structures and Algorithms.",
+        "Williams, 2000.",
+        "\u2014 384 C. [5] A.",
+        "B. Tucker and R. E. Noonan.",
+        "Programming Languages: Principles and Paradigms, Second Edition.",
+        "McGraw-Hill Higher Education, 2007.",
+        "[6] Knut D. The art of programming.",
+        "Volume 1.",
+        "Basic algorithms.",
+        "Williams, 2010.",
+        "[7] Liskov B., Zilles S. Programming with abstract data types // SIGPlan Notices, vol.",
+        "9, no.",
+        "4, 1974.",
+        "[8] B. Liskov.",
+        "A history of CLU.",
+        "In History of programming languages \u2014II, pages 471 \u2013510.",
+        "ACM, 1996 [9] L. Cardelli.",
+        "A semantics of multiple inheritance.",
+        "In Semantics of Data Types, volume 173 of Lecture Notes in Computer Science, pages 51 \u201368.",
+        "Springer-Verlag, 1984.",
+        "[10] Bertrand Meyer.",
+        "The basics of object-oriented programming.",
+        "Abstract data types (ADT).",
+        "http://www.intuit.ru/department / se / oopbases / 6 / 10.html  .",
+        "[11] B. C. Pierce.",
+        "Types and Programming Languages.",
+        "MIT Press, 2002.",
+        "[12] Glushkov V. M., Zeitlin, G. E., Yushchenko E. L. Algebra.",
+        "Languages.",
+        "Programming.",
+        "3-e Izd., Rev.",
+        "and DOP.",
+        "\u2013 Kiev: Sciences.",
+        "Dumka, 1989.",
+        "-376 p. [13] Yu.",
+        "V. Kapitonova, A.",
+        "A. Letichevskii, and V. A. Volkov, \"Deductive tools of an algebraic programming system,\" Cybernetics and System AnalysisNo.",
+        "1, 12-26 (2000).",
+        "[14] Kryvyi S. L. Abstract data types as polybasic algebraic system.",
+        "\u2013 K.: well.",
+        "\"Software engineering\".",
+        "\u2013  2010.",
+        "- \u2116 3.",
+        "\u2013 C. 3 -18.",
+        "[15] A. E. Doroshenko, O. V. Iovchev A method of designing an abstract data type in algebra of Algorithmics // Problems of programming.",
+        "\u2013 2012.",
+        "\u2013 No.",
+        "1.",
+        "\u2013  P. 3 \u2013 16.",
+        "[16] Kabulov R.V., Latipova N. Axiomatic approach to the definition of abstract types of data.",
+        "// \"Important issues in the field of technical and socio-economic sciences.\"",
+        "Republican collection of interuniversity scientific works.",
+        "Tashkent Institute of Chemistry and Technology.",
+        "Tashkent.",
+        "2015 pp.48-49.",
+        ""
+      ]
+    }
+  },
+  {
+    "data": {
+      "arqName": "articles/1.pdf",
+      "name": "Code-Viz: Data Structure Specific Visualization and Animation Tool For User-Provided Code",
+      "objective": "Keywords \u2014 Visualization, Animation, Imagery, Data Structures, Language Agnostici sm, Immersive Understanding, Involved Learning I. I NTRODUCTIONThe idea for this project was inspired by the need of visualisation for user defined algorithms and data structures.",
+      "problem": "P ROBLEM STATEMENTBuilding a tool which accepts code as input from the user and generates simple, explanat ive  visualization of line-by-line execution of the code, and provides data structure specific animation for the data structure  used.",
+      "method": null,
+      "contribution": null,
+      "frequency": [
+        [
+          "code",
+          45
+        ],
+        [
+          "data",
+          36
+        ],
+        [
+          "The",
+          22
+        ],
+        [
+          "visualization",
+          22
+        ],
+        [
+          "user",
+          21
+        ],
+        [
+          "Fig",
+          21
+        ],
+        [
+          "structures",
+          19
+        ],
+        [
+          "tool",
+          17
+        ],
+        [
+          "used",
+          15
+        ],
+        [
+          "end",
+          15
+        ]
+      ],
+      "references": [
+        "[1] Guo, Philip J , \"Online python tu tor: embeddable web-based program visualization for CS education.\".",
+        "ACM Technical Symposium on Computer science education, 2013.",
+        "[2] Heinsen Egan, M., & McDonald, C , An evaluation of SeeC: a tool designed to assist novice C prog rammers with program understanding and debugging.",
+        "Computer Science Education, 1-34, 2020.",
+        "[3] Ryosuke Ishizue, et al.",
+        ", PVC.js: visualizing C programs on web browsers for novices.",
+        "Heliyon,  Volume 6 Issue 4, 2020.",
+        "[4] David Galles, Data Structures Visualization https://www.cs.usfca.edu/~galles /visualization/source.html.",
+        "2011 8"
+      ]
+    }
+  },
+  {
+    "data": {
+      "arqName": "articles/8.pdf",
+      "name": "Philosophy of Data Structures in Engineering Education",
+      "objective": "Thisarticle explains the relationship and connectivity of these corecourses.",
+      "problem": "The article focus onthe method of providing connectivity between the building blocksof DS like Data Containers, Container Iterators, Algorithms andFunctors.",
+      "method": "The article focus onthe method of providing connectivity between the building blocksof DS like Data Containers, Container Iterators, Algorithms andFunctors.",
+      "contribution": null,
+      "frequency": [
+        [
+          "DS",
+          20
+        ],
+        [
+          "data",
+          17
+        ],
+        [
+          "The",
+          13
+        ],
+        [
+          "structures",
+          12
+        ],
+        [
+          "Data",
+          11
+        ],
+        [
+          "courses",
+          9
+        ],
+        [
+          "like",
+          7
+        ],
+        [
+          "Fig",
+          7
+        ],
+        [
+          "What",
+          7
+        ],
+        [
+          "pedagogy",
+          5
+        ]
+      ],
+      "references": []
     }
   },
   {
@@ -860,6 +798,68 @@
         "ARPN Journal of Engineering and Applied Sciences , 2019, no 14 (22), pp.",
         "3852-3864.",
         ""
+      ]
+    }
+  },
+  {
+    "data": {
+      "arqName": "articles/4.pdf",
+      "name": "Efficient Video Data Structure and Compression Scheme for Fabric Wicking Phenomenon Studies",
+      "objective": "Speci\ufb01cally, wehave developed a preliminary wetting event timestamp de-tection algorithm [3] that works at the level of the indi-vidual time series of each pixel location of the wicking-performance video.",
+      "problem": null,
+      "method": "W e havebeen working with textile scientists to automate a newly de-signed video-based test method that targets at analyzing theyarn-level wicking behaviors of fabrics.",
+      "contribution": "W e also propose a compressionscheme specially designed for the proposed data structure.Experimental results show that the proposed data structureand compression scheme can store the video information inmanageable \ufb01le size while providing visual quality at a cus-tomized level.1.",
+      "frequency": [
+        [
+          "video",
+          34
+        ],
+        [
+          "wicking",
+          28
+        ],
+        [
+          "time",
+          28
+        ],
+        [
+          "data",
+          27
+        ],
+        [
+          "size",
+          20
+        ],
+        [
+          "The",
+          19
+        ],
+        [
+          "pixel",
+          18
+        ],
+        [
+          "block",
+          18
+        ],
+        [
+          "structure",
+          17
+        ],
+        [
+          "blocks",
+          16
+        ]
+      ],
+      "references": [
+        "[1] V ertical Wicking of T extiles, AA TCC Std.",
+        "TM197, 2013.",
+        "[2] B. Miller and I. Tyomkin, \u201cSpontaneous transplanar uptake ofliquids by fabrics,\u201d T extile Research Journal, vol.",
+        "54, no.",
+        "11,pp.",
+        "706\u2013712, Nov.",
+        "1984.",
+        "[3] X. Liu and C.-W. Wong, \u201cVideo-based wetting detection forblended fabrics,\u201d in IEEE International Conference on ImageProcessing (ICIP\u201919), Brighton, UK, May 2019, submitted.418"
       ]
     }
   }
