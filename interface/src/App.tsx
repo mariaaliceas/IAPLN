@@ -13,6 +13,7 @@ function App() {
   const [inputMethod, setInputMethod] = useState('');
   const [inputContribution, setInputContribution] = useState('');
   const [inputName, setInputName] = useState('');
+  const [inputFrequence, setInputFrequence] = useState([]);
   
   const handleInputChange = (event: any) => {
     setInputValue(event.target.value);
@@ -29,6 +30,7 @@ function App() {
     setInputMethod(article?.data.method??'')
     setInputContribution(article?.data.contribution??'')
     setInputName(article?.data.name??'')
+    //setInputFrequence(article?.data.frequency??[])
 
     console.log(article)
   }
@@ -58,6 +60,10 @@ function App() {
           <p>{inputMethod}</p>
           <h2>Contribuição:</h2>
           <p>{inputContribution}</p>
+          <h2>Frequência de palavras:</h2>
+          <p></p>
+          <h2>Referências:</h2>
+          <p></p>
           {/* <h2>Bag of Words:</h2>
           <ul>
             {Object.entries(inputBagWords).map(([word, count]) => (
